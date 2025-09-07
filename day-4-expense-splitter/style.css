@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f8ff;
+}
+
+#pet-container {
+  text-align: center;
+  background: #fff;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+#pet {
+  font-size: 100px;
+  margin: 20px 0;
+  transition: transform 0.2s;
+}
+
+#pet.playing {
+  transform: scale(1.3);
+}
+
+#pet.sleeping {
+  transform: rotate(10deg);
+}
+#status-bars div {
+  margin: 10px 0;
+}
+
+.status-bar {
+  height: 20px;
+  width: 200px;
+  background: lightgray;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.status-fill {
+  height: 100%;
+  width: 50%; /* Will update via JS */
+  background: limegreen;
+  transition: width 0.3s, background 0.3s;
+}
+    button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #87cefa;
+}

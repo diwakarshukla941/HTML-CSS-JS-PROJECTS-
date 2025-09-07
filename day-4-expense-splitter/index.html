@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Pet</title>
+  <link rel="stylesheet" href="style.css"> <!-- your CSS file -->
+</head>
+<body>
+  <div id="pet-container">
+    <!-- Pet Display -->
+    <div id="pet">🐶</div>
+
+    <!-- Status Bars -->
+    <div id="status-bars">
+      <div>
+        Hunger: <span id="hunger">50</span>
+        <div class="status-bar"><div id="hunger-fill" class="status-fill" style="width:50%"></div></div>
+      </div>
+      <div>
+        Happiness: <span id="happiness">50</span>
+        <div class="status-bar"><div id="happiness-fill" class="status-fill" style="width:50%"></div></div>
+      </div>
+      <div>
+        Energy: <span id="energy">50</span>
+        <div class="status-bar"><div id="energy-fill" class="status-fill" style="width:50%"></div></div>
+      </div>
+    </div>
+
+    <!-- Control Buttons -->
+    <div id="controls">
+      <button id="feed-btn">Feed</button>
+      <button id="play-btn">Play</button>
+      <button id="sleep-btn">Sleep</button>
+    </div>
+
+    <!-- Messages -->
+    <div id="message">Take care of your pet!</div>
+  </div>
+
+  <!-- JS File -->
+  <script src="script.js"></script>
+</body>
+</html>
