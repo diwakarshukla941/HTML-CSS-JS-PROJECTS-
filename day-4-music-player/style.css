@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+.player h2 {
+  margin-bottom: 15px;
+}
+
+.controls button {
+  background: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.controls button:hover {
+  background: #ffcc00;
+}
+
+.progress-container {
+  background: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px 0;
+  height: 8px;
+  width: 100%;
+}
+
+.progress {
+  background: #ffcc00;
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
